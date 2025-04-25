@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professional Blog - Blog</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container header-container">
+            <h1 class="logo">Professional Blog</h1>
+            <nav>
+                <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="blog.html" aria-current="page">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container blog-listing">
+            <h2>All Blog Posts</h2>
+            <div id="posts-container">
+                <!-- Blog posts will be dynamically loaded here -->
+            </div>
+            <div class="pagination">
+                <button id="prev-page" disabled>Previous</button>
+                <span id="page-info">Page 1</span>
+                <button id="next-page">Next</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" style="position: fixed;">
+        <div class="container footer-container">
+            <p>&copy; 2025 Professional Blog. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
